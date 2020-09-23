@@ -92,7 +92,11 @@ Since the testing set of Tusimple is not ordered, the visualized video might loo
 # Speed
 To test the runtime, please run
 ```Shell
-python speed.py
+python speed_simple.py  
+# this will test the speed with a simple protocol and requires no additional dependencies
+
+python speed_real.py
+# this will test the speed with real video or camera input
 ```
 It will loop 100 times and calculate the average runtime and fps in your environment.
 
@@ -106,3 +110,6 @@ booktitle = {The European Conference on Computer Vision (ECCV)},
 year = {2020}
 }
 ```
+
+# Thanks
+Thanks zchrissirhcz for the contribution to the compile tool of CULane, KopiSoftware for contributing to the speed test, and ustclbh for testing on the Windows platform.
