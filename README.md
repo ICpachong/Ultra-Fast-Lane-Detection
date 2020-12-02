@@ -1,5 +1,5 @@
 # Ultra-Fast-Lane-Detection
-The implementation of the paper "[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)".
+PyTorch implementation of the paper "[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)".
 
 Updates: Our paper has been accepted by ECCV2020.
 
@@ -102,7 +102,7 @@ It will loop 100 times and calculate the average runtime and fps in your environ
 
 # Citation
 
-```
+```BibTeX
 @InProceedings{qin2020ultra,
 author = {Qin, Zequn and Wang, Huanyu and Li, Xi},
 title = {Ultra Fast Structure-aware Deep Lane Detection},
